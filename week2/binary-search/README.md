@@ -7,37 +7,37 @@ If target exists in the array, return its index. Otherwise, return -1.
 
 The algorithm must have a runtime complexity of O(log n).
 
-Example 1
+## Example 1
 
-Input:
+### Input:
 
 nums = [-1, 0, 3, 5, 9, 12]
 target = 9
 
-Output:
+### Output:
 
 4
 
-Explanation:
+### Explanation:
 
 The value 9 exists in the array at index 4.
 
-Example 2
+## Example 2
 
-Input:
+### Input:
 
 nums = [-1, 0, 3, 5, 9, 12]
 target = 2
 
-Output:
+### Output:
 
 -1
 
-Explanation:
+### Explanation:
 
 The value 2 does not exist in the array.
 
-Algorithm
+## Algorithm
 
 Binary search works because the array is already sorted.
 
@@ -49,7 +49,7 @@ If they are equal, return mid.
 If nums[mid] is smaller than target, search the right half.
 If nums[mid] is greater than target, search the left half.
 If the search range becomes empty, return -1.
-Java Implementation
+## Java Implementation
 class Solution {
     public int search(int[] nums, int target) {
         int left = 0;
@@ -70,25 +70,25 @@ class Solution {
         return -1;
     }
 }
-Complexity
-Time Complexity
+## Complexity
+### Time Complexity
 
 O(log n)
 
 Each iteration eliminates approximately half of the remaining elements.
 
-Space Complexity
+### Space Complexity
 
 O(1)
 
 Only a few variables are used, regardless of the input size.
 
-Constraints
+## Constraints
 1 <= nums.length <= 10^4
 -10^4 < nums[i], target < 10^4
 All integers in nums are unique.
 nums is sorted in ascending order.
-Key Concept
+## Key Concept
 
 Binary search is more efficient than linear search for a sorted array.
 
