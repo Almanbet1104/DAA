@@ -1,5 +1,5 @@
-#Binary Search
-##Problem
+# Binary Search
+## Problem
 
 Given an integer array nums sorted in ascending order and an integer target, find the index of target.
 
