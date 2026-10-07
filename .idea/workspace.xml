@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90cfd30a-e2a8-4754-b4c9-ca726f3255af" name="Changes" comment="Push">
-      <change afterPath="$PROJECT_DIR$/week3/IterativeBinarySearch/IterativeBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/RecursiveBinarySearch/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/RecursiveBinarySearch/RecursiveBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/RecursiveFibonacci/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/RecursiveFibonacci/RecursiveFibonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -51,6 +47,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\DAA\week3\RecursiveFibonacci" />
       <recent name="C:\Users\user\IdeaProjects\DAA\week2\first-bad-version" />
       <recent name="C:\Users\user\IdeaProjects\DAA\week2\binary-search" />
       <recent name="C:\Users\user\IdeaProjects\DAA\week2" />
@@ -96,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790305316324</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Push">
+      <option name="closed" value="true" />
+      <created>1790740067737</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1790740067737</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
